@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch(license){
@@ -103,9 +103,8 @@ ${license}`;
 }
 
 function generateMarkdown(data) {
-  return `${data.license != "N/A" ? `[!${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})` : ''}
-# ${data.title}
-
+  return `# ${data.title}
+${data.license != "N/A" ? `[!${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})` : ''}
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation-Instructions)
@@ -114,6 +113,7 @@ function generateMarkdown(data) {
 - [Tests](#Tests)${data.license != "N/A" ? `
 - [License](#License)` : ''}
 - [Features](#Features)
+- [Questions](#Questions)
 ## Description
 ${data.description}
 ## Installation Instructions
