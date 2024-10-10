@@ -103,8 +103,8 @@ ${license}`;
 }
 
 function generateMarkdown(data) {
-  return `# ${data.title}
-${data.license != "N/A" ? `[!${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})` : ''}
+  return `# ${data.title}${data.license != "N/A" ? `
+[!${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})` : ''}
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation-Instructions)
