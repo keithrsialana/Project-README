@@ -127,8 +127,8 @@ ${data.tests}${renderLicenseSection(data.license)}
 ## Features
 ${data.features}
 ## Questions
-- GitHub: ${data.gitHub}
-- Email: ${data.email}
+- [GitHub](${data.gitHub})
+- [Email](mailto:${data.email})
 `;
 }
 
