@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Demo Video
-You can find the video ![here](https://drive.google.com/file/d/1qo3lqZITUh97Yc6HvjNfhondDNhfcr1c/view?usp=sharing)
+You can find the video [here](https://drive.google.com/file/d/1qo3lqZITUh97Yc6HvjNfhondDNhfcr1c/view?usp=sharing)
 
 ## Table of Contents
 - [Description](#Description)
