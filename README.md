@@ -14,8 +14,7 @@ https://drive.google.com/file/d/1qo3lqZITUh97Yc6HvjNfhondDNhfcr1c/view?usp=shari
 ## Description
 This challenge project aims to utilize Node.JS to install external modules. The application prompts the user several questions to fill out parts of a README file. It then generates a .md file with the user's answers appended into its contents.
 ## Installation Instructions
-- clone the repository using `git clone`
-- initialize npm using `npm init`
+- clone the repository using `git clone` with the repo key
 - install the dependencies using `npm install`
 ## Usage Instructions
 - run `npm .` from within the project directory
