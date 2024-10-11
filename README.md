@@ -19,6 +19,9 @@ This challenge project aims to utilize Node.JS to install external modules. The 
 - install the dependencies using `npm install`
 ## Usage Instructions
 - run `npm .` from within the project directory
+- answer the console prompts to your liking
+- if the inputs were completed correctly, a "GENERATED_FILE.md" will be created within the project folder
+- move the file to a project that you're working on, then rename the file to "README.md"
 ## Credits
 Keith Sialana
 ## License
